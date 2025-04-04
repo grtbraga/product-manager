@@ -114,7 +114,7 @@ product-manager/
 │   │   ├── java/
 │   │   │   └── br/com/productmanager/
 │   │   │       ├── controller/             # Controllers (ProductController)
-│   │   │       ├── domain/                 # Entities (Product, Category)
+│   │   │       ├── model/                 # Entities (Product, Category)
 │   │   │       ├── repository/             # JPA Repositories (ProductRepository, CategoryRepository)
 │   │   │       └── ProductManagerApplication.java  # Main application class
 │   │   └── resources/
@@ -123,6 +123,7 @@ product-manager/
 │   │       ├── templates/
 │   │       │   └── products.html           # Thymeleaf template
 │   │       ├── application.properties      # Application configuration
+│   │       ├── data_clear.sql              # Script to clean up the database
 │   │       ├── insert_categories.sql       # Script to insert initial categories
 │   │       └── insert_products.sql         # Script to insert initial products
 │   └── test/                               # Unit tests
